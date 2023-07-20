@@ -20,7 +20,7 @@
 #     app.run(debug=True)
 
 from flask import Flask, jsonify, render_template, request
-from test2 import predict_output
+from model import predict_output
 
 app = Flask(__name__)
 
